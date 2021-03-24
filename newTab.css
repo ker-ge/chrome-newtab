@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.main_search {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main_search input {
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    box-shadow: none;
+    outline: none;
+    width: 93.8%;
+    height: 60px;
+    font-size: 20px;
+    padding: 0 0 0 5%;
+}
+
+.main_search span {
+    float: left;
+    font-size: 12px;
+}
+
+.main_btns {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main_btns div {
+    cursor: pointer;
+    width: 33%;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+
+.main_iciba{
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+/* 浏览器侧边栏 */
+::-webkit-scrollbar-track-piece {
+    background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dddddd;
+    background-clip: padding-box;
+    min-height: 28px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #bbb;
+}
